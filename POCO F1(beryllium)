@@ -3,6 +3,6 @@
     <project name="yonekome/device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="13" />
     <project name="yonekome/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="13" />
     <project name="Painkiller3/kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="thirteen" />
-    <project name="yonekome/vendor_xiaomi-beryllium" path="vendor/xiaomi-beryllium" remote="github" revision="13" />
-    <project name="yonekome/vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="github" revision="13" />
+    <project name="Evolution-X-Devices/vendor_xiaomi/beryllium" path="vendor/xiaomi/beryllium" remote="github" revision="elle" />
+    <project name="Evolution-X-Devices/vendor_xiaomi/sdm845-common" path="vendor/xiaomi/sdm845-common" remote="github" revision="elle" />
 </manifest>

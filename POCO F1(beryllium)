@@ -4,4 +4,5 @@
     <project name="yonekome/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="tiramisu" />
     <project name="yonekome/kernel_xiaomi_beryllium" path="kernel/xiaomi/beryllium" remote="github" revision="tiramisu" />
     <project name="PainKiller3/vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllium" remote="github" revision="thirteen" />
+    <project name="crdroidandroid/proprietary_vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="github" revision="13.0" />
 </manifest>

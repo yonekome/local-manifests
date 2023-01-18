@@ -7,5 +7,6 @@
     <project name="yonekome/vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllum" remote="github" revision="thirteen" />
     <project name="yonekome/vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="github" revision="thirteen" />
     <project name="PixelExperience/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="thirteen" />
+    <project name="android/vendor-blobs/vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="gitlab" revision="thirteen" />
  
 </manifest>

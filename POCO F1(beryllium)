@@ -10,3 +10,5 @@
     <project name="android/vendor-blobs/vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="gitlab" revision="thirteen" />
  
 </manifest>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------

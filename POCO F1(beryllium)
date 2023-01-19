@@ -3,7 +3,7 @@
 
 <project name="PixelExperience-Devices/device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="thirteen" />
     <project name="PixelExperience-Devices/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="thirteen" />
-    <project name="PixelExperience-Devices/kernel_xiaomi_polaris" path="kernel/xiaomi/polaris" remote="github" revision="thirteen" />
+    <project name="yonekome/kernel_xiaomi_beryllium" path="kernel/xiaomi/beryllium" remote="github" revision="thirteen" />
     <project name="yonekome/vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllum" remote="github" revision="thirteen" />
     <project name="yonekome/vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="github" revision="thirteen" />
     <project name="PixelExperience/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="thirteen" />

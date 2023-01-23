@@ -15,7 +15,11 @@ https://wiki.pixelexperience.org/help/building/
 repo init -u https://github.com/PixelExperience/manifest -b thirteen
 
 # Copy my custom manifest
-git clone -b tiramisu https://github.com/nattolecats/local_manifests .repo/local_manifests
+mkdir -p .repo/local_manifests
+
+touch .repo/local_manifests/<your device name>.xml
+
+vi .repo/local_manifests/<your device name>.xml
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -30,8 +34,10 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch evolution_denniz-userdebug
+lunch aosp_<your device name>-userdebug
 
 # Build the code
-m evolution
+croot
+
+mka bacon -j$(nproc --all)
 ```

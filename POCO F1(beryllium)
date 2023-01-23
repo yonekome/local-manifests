@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project name="PixelExperience-Devices/device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="thirteen" />
-    <project name="PixelExperience-Devices/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="thirteen" />
-    <project name="yonekome/kernel_xiaomi_beryllium" path="kernel/xiaomi/beryllium" remote="github" revision="thirteen" />
-    <project name="android/vendor-blobs/vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllum" remote="gitlab" revision="thirteen" />
-    <project name="android/vendor-blobs/vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="gitlab" revision="thirteen" />
-    <project name="PixelExperience/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="thirteen" />
-    <project name="android/vendor-blobs/vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="gitlab" revision="thirteen" />
-    <project name="ATBlastDon/packages_apps_GoogleCameraGoEdition" path="packages/apps/GoogleCameraGoEdition" remote="github" revision="new" />
+<project name="device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="pixel-devices" revision="thirteen" />
+    <project name="device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="pixel-devices" revision="thirteen" />
+    <project name="kernel_xiaomi_polaris" path="kernel/xiaomi/polaris" remote="pixel-devices" revision="thirteen" />
+    <project name="vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllum" remote="pixel-devices-blobs" revision="eleven" />
+    <project name="vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" />
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="pixel" revision="thirteen" />
+    <project name="vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="pixel-devices-blobs" revision="thirteen" />
+    <project name="lakgarg/packages_apps_GoogleCameraGo" path="packages/apps/GoogleCameraGo" remote="gitlab" revision="master" />
+    <project name="jjpprrrr/prelude_clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />
+ 
  
 </manifest>
-
----------------
-[⚠Attention⚠]
-Rewrite home/android/pe/.repo/manifests/default.xml:12
--fetch="https://gitlab.com
-+fetch="https://gitlab.pixelexperience.org
-
-Rewrite home/android/pe/device/xiaomi/beryllium/device.mk:85
--$(call inherit-product, packages/apps/GoogleCameraGo/gcam.mk)
-+$(call inherit-product, packages/apps/GoogleCameraGoEdition/GoogleCameraGoEdition.mk)

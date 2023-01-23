@@ -14,7 +14,7 @@ https://wiki.pixelexperience.org/help/building/
 # Initialize local repository
 repo init -u https://github.com/PixelExperience/manifest -b thirteen
 
-# Clone my custom manifest
+# Copy my custom manifest
 git clone -b tiramisu https://github.com/nattolecats/local_manifests .repo/local_manifests
 
 # Sync

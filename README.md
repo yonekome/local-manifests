@@ -1,4 +1,4 @@
-local_manifests
+#local_manifests
 
 Custom manifest for my unofficial Evolution X build.
 Sync

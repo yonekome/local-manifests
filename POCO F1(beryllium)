@@ -9,6 +9,6 @@
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="pixel" revision="thirteen" />
     <project name="vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="pixel-devices-blobs" revision="thirteen" />
     <project name="lakgarg/packages_apps_GoogleCameraGo" path="packages/apps/GoogleCameraGo" remote="gitlab" revision="master" />
-    <project name="jjpprrrr/prelude_clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />
+    <project name="yonekome/prelude_clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="github" revision="master" />
 
 </manifest>

@@ -9,6 +9,26 @@
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="pixel" revision="thirteen" />
     <project name="vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="pixel-devices-blobs" revision="thirteen" />
     <project name="lakgarg/packages_apps_GoogleCameraGo" path="packages/apps/GoogleCameraGo" remote="gitlab" revision="master" />
-    <project name="wwlwwlwwlwwl/prelude_clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="github" revision="master" />
+    <project name="jjpprrrr/prelude_clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />
 
 </manifest>
+
+--------------------
+[Note]
+In my environment,"prelude_clang" was not downloaded after "repo".
+If you are in the same situation,here is solution.
+
+1.Go to this link.
+  https://gitlab.com/jjpprrrr/prelude-clang/-/tree/master
+
+2.Download the source code with "tar" file;zip file may fail.
+
+3.Unzip with file manager.(file name is "prelude-clang-master")
+
+4.Copy all files/folders in the "prelude-clang-master".
+
+5.Go to "home/android/pe/prebuilts/clang/host/linux-x86" and make "clang-prelude" folder.
+
+6.Copy the copied file to the "clang-prelude" folder.
+
+7.Delete "<project name="jjpprrrr/prelude_clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />" from local_manifests.

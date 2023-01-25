@@ -34,14 +34,14 @@ If you are in the same situation,here is solution.
 
 7.Delete "<project name="jjpprrrr/prelude_clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />" from local_manifests.
 
-❷FCM version problem
-This device source code will probably produce this error.
-"both device manifest and kernel release do not specify kernel FCM version"
-Currently I do not have the technical ability to modify this source code, so I will modify it after downloading the source code with "repo".
+❷"android.hardware.gnss" version error
+This error appears in the third process from the end of the build, and is not available for Android 13, so you need to upgrade your version.
+I plan to fork the source and release a corrected version in the future.
 
-1.Go to home/android/pe/device/xiaomi/beryllium/manifest.xml:1
+1.Go to home/android/pe/device/xiaomi/beryllium/manifest.xml:5
 
 2.change the code as follows
-  <manifest version="1.0" type="device">
-                   ⬇
-  <manifest version="1.0" type="device" target-level="4">
+  -<version>1.0</version>
+             ⬇
+  +<version>1.1</version>
+   <version>2.0</version>

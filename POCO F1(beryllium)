@@ -15,6 +15,7 @@
 
 --------------------
 [Note]
+❶prelude_clang problem
 In my environment,"prelude_clang" was not downloaded after "repo".
 If you are in the same situation,here is solution.
 
@@ -32,3 +33,14 @@ If you are in the same situation,here is solution.
 6.Copy the copied file to the "clang-prelude" folder.
 
 7.Delete "<project name="jjpprrrr/prelude_clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />" from local_manifests.
+
+❷FCM version problem
+This device source code will probably produce this error.
+Currently I do not have the technical ability to modify this source code, so I will modify it after downloading the source code with "repo".
+
+1.Go to home/android/pe/device/xiaomi/beryllium/manifest.xml:1
+
+2.change the code as follows
+<manifest version="1.0" type="device">
+⬇
+<manifest version="1.0" type="device" target-level="4">

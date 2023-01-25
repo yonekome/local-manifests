@@ -16,7 +16,7 @@
 --------------------
 [Note]
 ❶prelude_clang problem
-In my environment,"prelude_clang" was not downloaded after "repo".
+In my environment,"prelude_clang" was not downloaded with "repo".
 If you are in the same situation,here is solution.
 
 1.Go to this link.

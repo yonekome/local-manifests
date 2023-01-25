@@ -36,6 +36,8 @@ If you are in the same situation,here is solution.
 
 ❷FCM version problem
 This device source code will probably produce this error.
+"both device manifest and kernel release do not specify kernel FCM version"
+
 Currently I do not have the technical ability to modify this source code, so I will modify it after downloading the source code with "repo".
 
 1.Go to home/android/pe/device/xiaomi/beryllium/manifest.xml:1

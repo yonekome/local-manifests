@@ -41,6 +41,6 @@ Currently I do not have the technical ability to modify this source code, so I w
 1.Go to home/android/pe/device/xiaomi/beryllium/manifest.xml:1
 
 2.change the code as follows
-<manifest version="1.0" type="device">
-⬇
-<manifest version="1.0" type="device" target-level="4">
+  <manifest version="1.0" type="device">
+                   ⬇
+  <manifest version="1.0" type="device" target-level="4">

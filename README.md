@@ -3,7 +3,7 @@
 ### Pixel Experience ###
 
 ```bash
-# POCO F1(beryllium)
+# POCO F1(beryllium)➡broken
 Android 13
 
 ```

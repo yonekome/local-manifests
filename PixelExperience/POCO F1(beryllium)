@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project name="PainKiller3/device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="thirteen" />
+<project name="device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="pixel-devices" revision="thirteen" />
     <project name="device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="pixel-devices" revision="thirteen" />
     <project name="PainKiller3/kernel_xiaomi_sdm845" path="kernel/xiaomi/beryllium" remote="github" revision="thirteen" />
     <project name="PainKiller3/vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllum" remote="github" revision="eleven" />

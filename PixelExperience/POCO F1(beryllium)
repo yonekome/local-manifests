@@ -4,7 +4,7 @@
 <project name="yonekome/device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="thirteen" />
     <project name="device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="pixel-devices" revision="thirteen" />
     <project name="kernel_xiaomi_polaris" path="kernel/xiaomi/beryllium" remote="pixel-devices" revision="thirteen" />
-    <project name="vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllum" remote="pixel-devices-blobs" revision="eleven" />
+    <project name="vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllum" remote="pixel-devices-blobs" revision="thirteen" />
     <project name="vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" />
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="pixel" revision="thirteen" />
     <project name="vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="pixel-devices-blobs" revision="thirteen" />

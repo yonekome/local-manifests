@@ -3,7 +3,7 @@
 ### Pixel Experience ###
 
 ```bash
-# Xiaomi POCO F1(beryllium)➡Does not boot the system
+# POCO F1(beryllium)➡Does not boot the system
 Android 13
 
 ```

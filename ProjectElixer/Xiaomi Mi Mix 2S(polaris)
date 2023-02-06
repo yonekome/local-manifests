@@ -1,1 +1,6 @@
-あ
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/beryllium" remote="github" revision="thirteen" />
+
+</manifest>

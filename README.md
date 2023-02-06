@@ -1,9 +1,9 @@
 # Custom ROM build local manifests
 
-### Pixel Experience ###
+### Project Elixir ###
 
 ```bash
-# POCO F1(beryllium)➡broken
+# Xiaomi Mi Mix 2S(Polaris)➡incomplete
 Android 13
 
 ```

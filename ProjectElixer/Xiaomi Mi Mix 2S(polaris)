@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/beryllium" remote="github" revision="thirteen" />
-
+<project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/polaris" remote="github" revision="thirteen" />
+<project name="ProjectElixir-Devices/device_xiaomi_beryllium-common" path="device/xiaomi/sdm845-common" remote="github" revision="thirteen" />
+<project name="PainKiller3/kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="thirteen" />
+  
 </manifest>

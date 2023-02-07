@@ -1,17 +1,27 @@
 # Custom ROM build local manifests
 
+### Evolution X ###
+
+```bash
+
+# POCO F1(beryllium)➡challenging now
+  Android 13
+
+```
+
 ### Pixel Experience ###
 
 ```bash
-# POCO F1(beryllium)➡Does not boot the system
-Android 13
+
+# POCO F1(beryllium)➡closed.Will try again soon.
 
 ```
 
 ### Project Elixir ###
 
 ```bash
+
 # Xiaomi Mi Mix 2S(polaris)➡incomplete
-Android 13
+  Android 13
 
 ```

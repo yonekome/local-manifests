@@ -4,5 +4,7 @@
 <project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/polaris" remote="github" revision="thirteen" />
 <project name="ProjectElixir-Devices/device_xiaomi_beryllium-common" path="device/xiaomi/sdm845-common" remote="github" revision="thirteen" />
 <project name="PainKiller3/kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="thirteen" />
-  
+<project name="TheMuppets/proprietary_vendor_xiaomi_polaris" path="vendor/xiaomi/polaris" remote="github" revision="lineage-20" />
+<project name="jjpprrrr/vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="github" revision="thirteen" />
+    
 </manifest>

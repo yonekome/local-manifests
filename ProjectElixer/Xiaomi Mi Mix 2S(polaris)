@@ -6,7 +6,6 @@
 <project name="yonekome/kawaii_kernel_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="13" />
 <project name="TheMuppets/proprietary_vendor_xiaomi_polaris" path="vendor/xiaomi/polaris" remote="github" revision="lineage-20" />
 <project name="yonekome/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="thirteen" />
-<project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" />
 <project name="RahulGorai0206/package_apps_memecam" path="package/apps/memecam" remote="gitlab" revision="main" />
     
 </manifest>

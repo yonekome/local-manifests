@@ -10,3 +10,12 @@
 <project name="RahulGorai0206/package_apps_memecam" path="package/apps/memecam" remote="gitlab" revision="main" />
     
 </manifest>
+
+－－－－－－－－－－－
+【V3.6-Alpha Bugs】
+・Can't login Google account
+・Setting apps UI broken(It's become normally Pixel UI)
+・Can't open camera
+・Automatic screen brightness adjustment flickers
+
+>I think some of the bugs are due to the ROM source code.

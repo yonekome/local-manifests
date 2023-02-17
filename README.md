@@ -21,7 +21,7 @@
 
 ```bash
 
-# Xiaomi Mi Mix 2S(polaris)➡incomplete
+# Xiaomi Mi Mix 2S(polaris)➡Alpha test now
   Android 13
 
 ```

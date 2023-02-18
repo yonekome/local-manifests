@@ -1,4 +1,4 @@
-# How to build unofficial Project Elixir
+# How to build Project Elixir
 
 ### Sync ###
 

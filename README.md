@@ -4,8 +4,7 @@
 
 ```bash
 
-# POCO F1(beryllium)➡challenging now
-  Android 13
+# POCO F1(beryllium)➡Will try soon.
 
 ```
 

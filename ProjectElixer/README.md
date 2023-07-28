@@ -26,7 +26,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch aosp_<your device name>-userdebug
+lunch aosp_<device name>-userdebug
 
 # Build the code
 mka bacon 

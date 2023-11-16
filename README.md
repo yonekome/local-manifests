@@ -4,8 +4,6 @@
 
 ```bash
 
-# Samsung Galaxy S2
-This is not my project.But I expect this project and have mentored the developer.
 
 ```
 

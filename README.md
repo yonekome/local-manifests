@@ -1,10 +1,10 @@
 # Custom ROM build status
 
-### Comment from yonekome ###
+### Lineage OS ###
 
 ```bash
 
-Sorry for neglecting this. I will resume development!
+# Samsung Galaxy S2
 
 ```
 

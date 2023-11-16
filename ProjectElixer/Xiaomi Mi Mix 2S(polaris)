@@ -2,7 +2,8 @@
 <manifest>
 
 <project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/polaris" remote="github" revision="UNO" />
-    
+<project name="yonekome/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="UNO" />
+
 </manifest>
 
 －－－－－－－－－－－

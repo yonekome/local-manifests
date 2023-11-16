@@ -5,6 +5,7 @@
 ```bash
 # Reference page
 https://wiki.lineageos.org/devices/
+https://xdaforums.com/t/guide-how-to-building-lineageos-for-an-unsupported-device.4419263/
 
 ```
 
@@ -34,7 +35,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch aosp_<your device name>-userdebug
+lunch lineageos_<your device name>-userdebug
 
 # Build the code
 croot

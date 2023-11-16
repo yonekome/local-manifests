@@ -4,7 +4,7 @@
 
 ```bash
 # Initialize local repository
-repo init -u https://github.com/Project-Elixir/manifest -b Tiramisu
+repo init -u https://github.com/Project-Elixir/manifest -b UNO
 
 # Copy my custom manifest
 mkdir -p .repo/local_manifests

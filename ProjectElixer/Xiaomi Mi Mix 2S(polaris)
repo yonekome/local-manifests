@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/polaris" remote="github" revision="tiramisu" />
+<project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/polaris" remote="github" revision="UNO" />
     
 </manifest>
 

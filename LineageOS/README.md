@@ -42,11 +42,3 @@ croot
 mka bacon -j$(nproc --all)
 ```
 
-### Note ###
-
-```bash
-
-I did not set ccache because an error occurred when I set ccache in my environment and I could not build.
-
-```
-

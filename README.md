@@ -4,6 +4,6 @@
 
 ```bash
 
-# Xiaomi Mi Mix 2S(polaris)➡All reset
+# Actively Preparing now...
 
 ```

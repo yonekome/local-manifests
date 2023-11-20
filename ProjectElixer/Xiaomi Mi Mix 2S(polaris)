@@ -4,7 +4,7 @@
 <project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/polaris" remote="github" revision="UNO" />
 <project name="yonekome/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="UNO" />
 <project name="yonekome/kernel_xiaomi_polaris" path="kernel/xiaomi/polaris" remote="github" revision="UNO" />
-<project name="vendor_xiaomi_polaris" path="vendor/xiaomi/polaris" remote="pixel-devices-blobs" revision="thirteen" />
+<project name="vendor_xiaomi_polaris" path="vendor/xiaomi/polaris" remote="github" revision="UNO" />
 <project name="jjpprrrr/prelude-clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />
 
 </manifest>

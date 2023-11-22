@@ -6,7 +6,7 @@
 
 <project name="yonekome/device_xiaomi_polaris" path="device/xiaomi/polaris" remote="github" revision="fourteen" />
 <project name="PixelExperience/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="thirteen" />
-<project name="PixelExperience/kernel_xiaomi_polaris" path="kernel/xiaomi/polaris" remote="github" revision="thirteen" />
+<project name="yonekome/kernel_xiaomi_polaris" path="kernel/xiaomi/polaris" remote="github" revision="thirteen" />
 <project name="vendor_xiaomi_polaris" path="vendor/xiaomi/polaris" remote="pixel-devices-blobs" revision="thirteen" />
 <project name="vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" />
 <project name="vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="pixel-devices-blobs" revision="thirteen" />

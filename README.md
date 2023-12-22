@@ -11,7 +11,8 @@
 
 ```bash
 
-# Actively Preparing now...
+# Xiaomi Mi Mix 2s (Polaris)
+Android 13
 
 ```
 

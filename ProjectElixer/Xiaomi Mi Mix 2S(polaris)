@@ -10,5 +10,6 @@
 <project name="vendor_xiaomi_polaris" path="vendor/xiaomi/polaris" remote="pixel-devices-blobs" revision="thirteen" />
 <project name="vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" />
 <project name="vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="pixel-devices-blobs" revision="thirteen" />
+<project name="jjpprrrr/prelude-clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />
 
 </manifest>

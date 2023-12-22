@@ -11,7 +11,7 @@
 
 ```bash
 
-# Xiaomi Mi Mix 2s (Polaris)
+# Xiaomi Mi Mix 2s(Polaris)
 Android 13
 
 ```

@@ -13,3 +13,12 @@
 <project name="jjpprrrr/prelude-clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" />
 
 </manifest>
+
+
+-･-･-･-･-･Note-･-･-･-･-･
+＞If you get an error saying can not download "prelude-clang", try the following methods.
+1.Go to https://gitlab.com/jjpprrrr/prelude-clang
+2.Download the sorce code (Code→Download sorce code→zip)
+3.Extract the zip file
+4.Make the path folder (prebuilts/clang/host/linux-x86/clang-prelude)
+5.Paste the extracted files to "clang-prelude" folder

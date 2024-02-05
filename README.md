@@ -4,6 +4,8 @@
 
 ```bash
 
+# Sony Xperia XA2 Ultra(discovery)
+Preparing now...
 
 ```
 
@@ -20,6 +22,5 @@ Android 13
 
 ```bash
 
-# Actively Preparing now...
 
 ```

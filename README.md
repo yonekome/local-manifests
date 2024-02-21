@@ -5,7 +5,7 @@
 ```bash
 
 # Sony Xperia XA2 Ultra(discovery)
-Android 13
+Android 14
 
 ```
 

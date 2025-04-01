@@ -1,1 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+<project name="Kfkcome/android_device_xiaomi_nabu" path="device/xiaomi/polaris" remote="github" revision="evolution-14.0" />
+<project name="Kfkcome/kernel_xiaomi_polaris" path="kernel/xiaomi/polaris" remote="github" revision="14.0" />
+<project name="Kfkcome/vendor_xiaomi_nabu" path="vendor/xiaomi/polaris" remote="github" revision="14.0" />
+<project name="Evolution-X-AOSP/hardware_xiaomi" path="hardware/xiaomi/" remote="github" revision="udc" />
+
+</manifest>

@@ -1,14 +1,5 @@
 # Custom ROM build status
 
-### Lineage OS ###
-
-```bash
-
-# Sony Xperia XA2 Ultra(discovery)
-Android 14
-
-```
-
 ### PixelExperience ###
 
 ```bash
@@ -18,3 +9,11 @@ Android 13
 
 ```
 
+### Rising Revived OS ###
+
+```bash
+
+# Xiaomi Mi Pad 5(nabu)
+Android 15
+
+```

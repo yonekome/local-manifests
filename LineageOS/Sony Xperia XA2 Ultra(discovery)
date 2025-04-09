@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-<project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" remote="github" revision="lineage-21" />
-
-</manifest>

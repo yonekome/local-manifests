@@ -18,9 +18,3 @@ Android 13
 
 ```
 
-### Project Elixir ###
-
-```bash
-
-
-```

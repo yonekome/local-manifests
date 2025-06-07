@@ -7,4 +7,7 @@
 <project name="android_vendor_xiaomi_nabu" path="vendor/xiaomi/nabu" remote="devharshlab"/>
 <project name="dev-harsh1998/android_kernel_xiaomi_nabu" path="kernel/xiaomi/nabu" remote="github" revision="lineage-22.1"/>
 <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-22.2"/>
+
+<remove-project name="device/google/cuttlefish_vmm" />
+<remove-project name="device/google/cuttlefish_prebuilts" />
 </manifest>

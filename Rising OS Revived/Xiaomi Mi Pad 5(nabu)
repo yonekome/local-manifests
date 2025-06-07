@@ -2,11 +2,9 @@
 <manifest>
     <!--Remotes-->
     <remote name="devharshlab" fetch="https://gitlab.com/dev-harsh1998" revision="lineage-22" />
-    <remote name="devharsh" fetch="https://github.com/dev-harsh1998" revision="lineage-22.1" />
-    <remote name="darkmatter" fetch="https://github.com/Dark-Matter7232" revision="A15" />
 
 <project name="yonekome_device_xiaomi_nabu" path="device/xiaomi/nabu" remote="github" revision="fifteen"/>
-<project name="android_vendor_xiaomi_nabu" path="vendor/xiaomi/nabu" remote="devharshlab"   />-
-<project name="kernel_msm-4.14-nabu" path="kernel/xiaomi/nabu" remote="darkmatter" />
-<project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="los" />
+<project name="android_vendor_xiaomi_nabu" path="vendor/xiaomi/nabu" remote="devharshlab"/>
+<project name="map220v_sm8150-mainline" path="kernel/xiaomi/nabu" remote="github" revision="nabu-6.11"/>
+<project name="LineageOS_android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-22.2"/>
 </manifest>

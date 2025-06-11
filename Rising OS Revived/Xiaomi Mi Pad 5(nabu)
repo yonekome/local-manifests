@@ -9,3 +9,19 @@
 <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-22.2"/>
 
 </manifest>
+
+
+
+―――――――――――――――――――――――――――
+You should put this ★ after repo sync.
+
+frameworks/base/services/core/Android.bp
+
+java_library_static {
+    name: "services.core.unboosted",
+    ...
+    static_libs: [
+        ...
+        "framework-internal-utils", // ←★
+    ],
+}

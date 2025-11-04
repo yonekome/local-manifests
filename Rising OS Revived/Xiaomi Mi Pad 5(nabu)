@@ -9,23 +9,3 @@
 <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.0"/>
 
 </manifest>
-
-
-
-―――――――――――――――――――――――――――
-You should rewrite code after repo sync.
-
-・frameworks/base/services/core/java/com/android/server/wm/ActivityTaskManagerService.java
-　Comment out all code related to CutoutFullscreenController.Add //to the beginning of the code.
-　ex)
-　// import com.android.internal.util.android.cutout.CutoutFullscreenController;
-　// private CutoutFullscreenController mCutoutFullscreenController;
-　// mCutoutFullscreenController = new CutoutFullscreenController(mContext);
-　// return mCutoutFullscreenController.shouldForceCutoutFullscreen(packageName);
-
-　Put this on the line following the commented out "// return mCutoutFullscreenController.shouldForceCutoutFullscreen(packageName);"
-　return false;
-
-・frameworks/base/Android.bp
-　Please comment out this code.
-　"core/java/com/android/internal/util/android/cutout/CutoutFullscreenController.java",

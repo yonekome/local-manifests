@@ -19,7 +19,7 @@ mkdir -p .repo/local_manifests
 
 touch .repo/local_manifests/<your device name>.xml
 
-vi .repo/local_manifests/<your device name>.xml
+nano .repo/local_manifests/<your device name>.xml
 
 # Sync
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)

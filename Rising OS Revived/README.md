@@ -36,6 +36,9 @@ repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc 
 # Choose a target
 riseup <your device name> userdebug
 
-# Build the code
+# Build 
 rise b
+
+# Check ROM files
+ls -lh out/target/product/nabu | rg -n "zip|img"
 ```

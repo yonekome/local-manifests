@@ -1,10 +1,10 @@
-# How to build unofficial Rising OS Revived
+# How to build Project Infinity X
 
 ###   All of how to build ###
 
 ```bash
 # Reference page 
-https://github.com/RisingOS-Revived/android
+https://github.com/ProjectInfinity-X/manifest
 
 ```
 
@@ -12,7 +12,7 @@ https://github.com/RisingOS-Revived/android
 
 ```bash
 # Initialize local repository
-repo init -u https://github.com/RisingOS-Revived/android -b sixteen --git-lfs
+repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault
 
 # Copy my custom manifest
 mkdir -p .repo/local_manifests
@@ -22,7 +22,7 @@ touch .repo/local_manifests/<your device name>.xml
 nano .repo/local_manifests/<your device name>.xml
 
 # Sync
-repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 
 ```
 
@@ -34,11 +34,7 @@ repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc 
 . build/envsetup.sh
 
 # Choose a target
-riseup <your device name> userdebug
+lunch infinity_<your device name>-userdebug
 
 # Build 
-rise b
-
-# Check ROM files
-ls -lh out/target/product/nabu | rg -n "zip|img"
-```
+m bacon -j$(nproc --all)

@@ -14,6 +14,6 @@ Android 13
 ```bash
 
 # Xiaomi Mi Pad 5(nabu)
-Android 15
+Android 16
 
 ```

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--Remotes-->
+    <remote name="devharshlab" fetch="https://gitlab.com/dev-harsh1998" revision="lineage-23.0" />
+
+<project name="yonekome/device_xiaomi_nabu" path="device/xiaomi/nabu" remote="github" revision="sixteen"/>
+<project name="android_vendor_xiaomi_nabu" path="vendor/xiaomi/nabu" remote="devharshlab"/>
+<project name="crdroidandroid/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/nabu" remote="github" revision="16.0"/>
+<project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="16.0"/>
+
+</manifest>
